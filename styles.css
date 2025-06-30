@@ -1,0 +1,17 @@
+/* Definición de variables de color y fuentes base */
+:root {
+  --primary-color: #53d22c;
+  --secondary-color: #121a0f;
+  --accent-color: #f9fbf9;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
+  /* Establece una altura mínima para el cuerpo, asegurando que el pie de página se mantenga abajo */
+  min-height: max(884px, 100dvh); 
+}
+
+/* Clase para el degradado del héroe */
+.hero-gradient {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%);
+}

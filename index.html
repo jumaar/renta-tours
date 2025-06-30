@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andina Rent-Tour</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,">
+</head>
+<body>
+
+<div class="relative flex size-full min-h-screen flex-col bg-[var(--accent-color)] justify-between group/design-root overflow-x-hidden">
+  
+<main>
+        <!-- BIENVENIDA -->
+        <section class="relative" class="@container" class="@[480px]:p-0">
+            
+                    <div class="flex min-h-screen flex-col gap-8 bg-cover bg-center bg-no-repeat @[480px]:gap-10 items-center justify-center p-6 text-center hero-gradient" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbbdGp3py4qLQ1S51kwkp_hAbOsM5i5PCyBjzSfAtjv5f_sBDW_stFSfmQJROUCKJH2ANZ6xnB0tWgB2OwRxhKAtnl7C-eqUt25uyNdIp6r6CTTYlofdjmVcX0tXP55DbkPnSXsBzhbTdnOrXaKrGWycynM47KykC-1AFXRYnIbjTQg9aMiSHly5qmPWNSZI-Q0hXfqwcMucEP5Bo1TaS3eoCenuMad8NzxlJ28xxSqBCAbK_9zPcgzSI33a0SjG393TL2qTBG06WN");'>
+                        <div class="flex flex-col gap-4 max-w-2xl">
+                            <h1 class="text-white text-4xl font-extrabold leading-tight tracking-tight @[480px]:text-6xl @[480px]:font-extrabold">
+                                Andina Rent-Tour: <span class="text-[var(--primary-color)]">Tu Viaje Andino</span>, Simplificado
+                            </h1>
+                            <h2 class="text-gray-200 text-base font-normal leading-relaxed @[480px]:text-lg @[480px]:font-normal">
+                                Descubre la belleza del Eje Cafetero con la comodidad y libertad que solo Andina Renta Tour puede ofrecerte. Alquila tu vehículo ideal y vive una experiencia inolvidable.
+                            </h2>
+                        </div>
+                        <!-- BOTÓN DE COTIZA TU VEHICULO WHATSAPP  -->
+                        <a href="https://wa.me/573217349407?text=Hola%20deseo%20informacion" target="_blank">
+                        <button class="flex items-center justify-center gap-2 min-w-[84px] max-w-[480px] cursor-pointer rounded-xl h-12 px-6 @[480px]:h-14 @[480px]:px-8 bg-[var(--primary-color)] text-[var(--secondary-color)] text-base font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors duration-300 shadow-lg hover:shadow-xl">
+                           <span class="truncate">Cotiza tu Vehículo por WhatsApp
+                           </span>
+                        </button></a>
+                    </div>
+        </section>
+
+        <!-- PORQUE ELEGIRNOS -->
+        <section class="py-16 px-4 @[480px]:py-24 @[480px]:px-6 bg-[var(--accent-color)]" id="porque-elegirnos">
+            <div class="container mx-auto">
+                <h2 class="text-3xl @[480px]:text-4xl font-bold text-center text-[var(--secondary-color)] mb-12">¿Por Qué Elegirnos?</h2>
+                <div class="grid grid-cols-1 @[768px]:grid-cols-3 gap-8 @[480px]:gap-12">
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md">
+                        <span class="material-icons text-5xl text-[var(--primary-color)] mb-4">visibility</span>
+                        <h3 class="text-xl font-semibold text-[var(--secondary-color)] mb-2">Transparencia Total</h3>
+                        <p class="text-gray-600 text-sm">Sin costos ocultos ni sorpresas. Lo que ves es lo que pagas. Precios claros y condiciones justas.</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md">
+                        <span class="material-icons text-5xl text-[var(--primary-color)] mb-4">verified_user</span>
+                        <h3 class="text-xl font-semibold text-[var(--secondary-color)] mb-2">Confiabilidad Garantizada</h3>
+                        <p class="text-gray-600 text-sm">Vehículos en perfecto estado y asistencia en carretera para tu tranquilidad. Tu seguridad es nuestra prioridad.</p>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md">
+                        <span class="material-icons text-5xl text-[var(--primary-color)] mb-4">support_agent</span>
+                        <h3 class="text-xl font-semibold text-[var(--secondary-color)] mb-2">Servicio Personalizado</h3>
+                        <p class="text-gray-600 text-sm">Atención cercana y adaptada a tus necesidades. Te asesoramos para que elijas el vehículo perfecto para tu aventura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- nuestra flota  -->
+        <section class="py-16 px-4 @[480px]:py-24 @[480px]:px-6 bg-gray-100" id="nuestra-flota">
+         <div class="container mx-auto">
+                <h2 class="text-3xl @[480px]:text-4xl font-bold text-center text-[var(--secondary-color)] mb-12">Nuestra Flota</h2>
+                <div class="grid grid-cols-1 @[768px]:grid-cols-2 gap-8 @[480px]:gap-12">
+                    
+                    <!-- seccion del spark gt blanco -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+
+                        <div class="p-6">
+
+                            <img alt="Vehículo Compacto" class="w-full object-cover rounded-lg max-w-md mx-auto block aspect-video" src="./SPARK-GT-BLANCO.jpg"/>
+
+                        </div>
+
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-[var(--secondary-color)] mb-3">SPARK GT</h3>
+                            <p class="text-gray-600 text-sm mb-4">Ideales para parejas o viajeros solos que buscan agilidad y economía en la ciudad y carreteras pavimentadas.</p>
+                             <a href="https://wa.me/573217349407?text=Hola%20deseo%20alquilar%20el%20SPARK%20GT" target="_blank">
+                            <button class="w-full flex items-center justify-center gap-2 min-w-[84px] max-w-[480px] cursor-pointer rounded-lg h-11 px-5 bg-[var(--primary-color)] text-[var(--secondary-color)] text-sm font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors duration-300">
+                                <span class="truncate">Consultar Disponibilidad</span>
+                            </button></a>
+                        </div>
+
+                    </div> 
+            
+                    <!-- seccion del onis turbo negro -->
+                     <div class="bg-white rounded-lg shadow-md overflow-hidden">
+
+                        <div class="p-6">
+
+                            <img alt="Vehículo SUV" class="w-full object-cover rounded-lg max-w-md mx-auto block aspect-video" src="./onix-turbo-hb-rs.avif"/>
+                        
+                        </div>
+
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-[var(--secondary-color)] mb-3">ONIX TURBO RS </h3>
+                            <p class="text-gray-600 text-sm mb-4">Perfectos para parejas y familias pequeñas, ofreciendo espacio y comodidad.</p>
+                            <a href="https://wa.me/573217349407?text=Hola%20deseo%20alquilar%20el%20ONIX%20turbo%20RS" target="_blank"> 
+                            <button class="w-full flex items-center justify-center gap-2 min-w-[84px] max-w-[480px] cursor-pointer rounded-lg h-11 px-5 bg-[var(--primary-color)] text-[var(--secondary-color)] text-sm font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors duration-300">
+                                <span class="truncate">Consultar Disponibilidad</span>
+                            </button></a>
+                        </div>
+                        
+                    </div>
+
+                    <!-- seccion del volkswagen gol gris -->
+                     <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="p-6">
+                            <img alt="Vehículo SUV" class="w-full object-cover rounded-lg max-w-md mx-auto block aspect-video" src="./DEF-GOL.jpg"/>                        
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-[var(--secondary-color)] mb-3">VOLKSWAGEN GOL 1.6 </h3>
+                            <p class="text-gray-600 text-sm mb-4">Perfecto para una escapada de fin de semana , ofreciendo comodidad y capacidad.</p>
+                            <a href="https://wa.me/573217349407?text=Hola%20deseo%20alquilar" target="_blank"> 
+                            <button class="w-full flex items-center justify-center gap-2 min-w-[84px] max-w-[480px] cursor-pointer rounded-lg h-11 px-5 bg-[var(--primary-color)] text-[var(--secondary-color)] text-sm font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors duration-300">
+                                <span class="truncate">Consultar Disponibilidad</span>
+                            </button></a>
+                        </div>
+                        
+                    </div>
+
+                    <!-- seccion de la van negra-->
+                     <div class="bg-white rounded-lg shadow-md overflow-hidden">
+
+                        <div class="p-6">
+
+                            <img alt="Vehículo SUV" class="w-full object-cover rounded-lg max-w-md mx-auto block aspect-video" src="./jumper.jpg"/>
+                        
+                        </div>
+
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-[var(--secondary-color)] mb-3">VAN 15 PASAJEROS </h3>
+                            <p class="text-gray-600 text-sm mb-4">Perfectos para familias , ofreciendo mayor espacio, comodidad y capacidad para un largo viaje.</p>
+                            <a href="https://wa.me/573217349407?text=Hola%20deseo%20alquilar" target="_blank"> 
+                            <button class="w-full flex items-center justify-center gap-2 min-w-[84px] max-w-[480px] cursor-pointer rounded-lg h-11 px-5 bg-[var(--primary-color)] text-[var(--secondary-color)] text-sm font-bold leading-normal tracking-wide hover:bg-opacity-90 transition-colors duration-300">
+                                <span class="truncate">Consultar Disponibilidad</span>
+                            </button></a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- lo que dicen nuestros clientes -->
+        <section class="py-16 px-4 @[480px]:py-24 @[480px]:px-6 bg-[var(--accent-color)]" id="testimonios">
+            <div class="container mx-auto">
+                <h2 class="text-3xl @[480px]:text-4xl font-bold text-center text-[var(--secondary-color)] mb-12">Lo Que Dicen Nuestros Clientes</h2>
+                <div class="grid grid-cols-1 @[768px]:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400">star_half</span>
+                        </div>
+                        <p class="text-gray-600 italic text-sm mb-4">"El servicio fue excepcional. El coche estaba impecable y el proceso de alquiler fue rápido y sin complicaciones. ¡Recomendadísimo!"</p>
+                        <p class="text-sm font-semibold text-[var(--secondary-color)]">- Ana María G.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400 mr-2">star</span>
+                            <span class="material-icons text-4xl text-yellow-400">star</span>
+                        </div>
+                        <p class="text-gray-600 italic text-sm mb-4">"Andina Renta Tour hizo nuestro viaje por el Eje Cafetero mucho más fácil. El personal fue muy amable y nos dieron excelentes recomendaciones."</p>
+                        <p class="text-sm font-semibold text-[var(--secondary-color)]">- Carlos R.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</main>
+
+<!-- boton de whatsapp flotante -->
+<a href="https://wa.me/573217349407?text=Hola%20deseo%20alquilar%20un%20un%20vehiculo" target="_blank">
+    
+    <div class="fixed bottom-6 right-6 @[480px]:bottom-8 @[480px]:right-8 z-20"    >
+        
+        <button class="bg-[#25D366] text-white px-5 py-3 rounded-full shadow-lg hover:bg-[#128C7E] transition-colors duration-300 flex items-center justify-center gap-2">
+    
+           <svg xmlns="http://www.w3.org/2000/svg" 
+                width="24" 
+                height="24" 
+                viewBox="0 0 24 24" 
+                fill="currentColor"  
+                class="w-8 h-8">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99 0-3.903-.52-5.586-1.457l-6.354 1.654zm6.838-5.693l.427.258c1.524.935 3.287 1.443 5.105 1.443 5.464 0 9.91-4.445 9.91-9.91s-4.446-9.91-9.91-9.91-9.91 4.445-9.91 9.91c0 1.764.444 3.476 1.258 4.961l.29.442-1.16 4.224 4.272-1.164z"/>
+            </svg>
+
+            <span class="font-semibold text-[var(--secondary-color)]">Contactar</span>
+
+        </button>
+    </div>
+</a>
+
+
+ <!-- FOOTER  -->
+<footer class="bg-[var(--secondary-color)] text-gray-300 px-4 pt-12 pb-24 @[480px]:pt-16 @[480px]:pb-32">
+    <div class="container mx-auto text-center">
+        <img alt="Andina Rent-Tour Logo" class="h-12 @[480px]:h-16 mx-auto mb-6 rounded-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD45GPXFEMcfuh9yBdd7SKExY_W83sPlvHuInBoR7KRuMvjns5_zSK6Yw4YmPTG0rberZDJMCPz9KCGCtbHf00QAer--cuIBqiD_KbV9nhb4g7rrIaEEq_IjwVzUJAUPnn6ArY0jsGSuZ6mFwIB5BSJbsaotZG28ZWI8AETE9kB6ZVmgp4SRC6Gk7ohBj7HCU25b3WIh8w_YFEk-UQb4j4W4MIUQ7CRvh5BpSu_N4z0TJIvjawyfI4EvEgqoPacdIFynJ9gCzBA-tHJ"/>
+        <p class="text-sm mb-2"><strong>Contacto:</strong> <a class="hover:text-[var(--primary-color)]" href="tel:+573217349407">+57 321 734 9407</a></p>
+        <p class="text-sm mb-4"><strong>Email:</strong> <a class="hover:text-[var(--primary-color)]" href="mailto:info@andinarentatour.com">info@andinarentatour.com</a></p>
+        <div class="flex justify-center space-x-4 mb-6">
+            <a class="text-gray-300 hover:text-[var(--primary-color)] transition-colors" href="#">
+                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a class="text-gray-300 hover:text-[var(--primary-color)] transition-colors" href="#">
+                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-7.025 2.927-7.225 7.287-.058 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.927 7.025 7.287 7.225 1.281.058 1.689.073 4.948.073 3.259 0 3.668-.014 4.948-.072 4.354-.2 7.025-2.927 7.225-7.287.058-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.2-4.358-2.927-7.025-7.287-7.225C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100-2.88 1.44 1.44 0 000 2.88z"></path>
+                </svg>
+            </a>
+            <a class="text-gray-300 hover:text-[var(--primary-color)] transition-colors" href="#">
+                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M16.041 10.041h-2.087V7.979c0-.587.195-1.008.951-1.008h1.135V5.014S14.805 5 13.871 5c-2.007 0-3.375 1.245-3.375 3.489v1.551H8.409v2.217h2.087v6.706h2.532v-6.706h1.756l.262-2.217z"></path>
+                    <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
+                </svg>
+            </a>
+        </div>
+        <p class="text-sm">© 2025 Andina Rent-Tour. Todos los derechos reservados.</p>
+        <p class="text-xs mt-1">Con el ❤️ del Eje Cafetero.</p>
+    </div>
+</footer>
+</div>
+
+</body>
+</html>
